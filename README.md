@@ -24,7 +24,22 @@
 
 ## :books: About
 
-<a id="execution"></a><br>
+Let Me Ask is a platform built to let you gather questions from your viewers during your stream and let them vote for which are the best questions for you to answer.
+
+Functionality
+
+- User authentication
+- Create rooms
+- Entering already created rooms
+- The administrator can:
+  - Highlight the question
+  - Mark the question as answered
+  - Delete the question
+  - Close the room
+- The user can
+  - Send questions
+  - Like other questions
+    <a id="execution"></a><br>
 
 ## :tv: Preview
 
@@ -60,6 +75,8 @@ git clone https://github.com/RuthMaria/letmeask.git
 yarn
 ```
 
+- Rename .env.exemple file to .env.local and configure your credentials of the firebase
+  <br>
 - Run the project
 
 ```
