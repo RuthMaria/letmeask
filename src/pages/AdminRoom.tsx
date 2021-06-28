@@ -23,7 +23,7 @@ export function AdminRoom() {
   async function handleEndRoom() {
     if (window.confirm('Tem certeza que deseja encerrar essa sala?')) {
       await database.ref(`rooms/${roomId}`).update({
-        ended_at: new Date()
+        endedAt: new Date()
       })
 
       history.push('/')
